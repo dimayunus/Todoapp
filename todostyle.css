@@ -1,0 +1,74 @@
+body{
+    background-color: whitesmoke;
+    color: black;
+    font-family: arial; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    padding: 100px;
+    padding-left: 200px;
+}
+
+.todo-grid,
+.task-space {
+    margin-top: 10px;
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 30px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+
+.title{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.inputstyle{
+    height: 30px;
+
+    
+}
+
+.date-input{
+    height: 32px;
+   
+}
+
+.addbutton{
+    background-color: green;
+    border: none;
+    color: whitesmoke;
+    width: 60px;
+    height: 36px;
+    padding: 5px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.taskbar{
+    font-size: 30px;
+}
+
+.delete-button{
+    height: 30px;
+    margin-right: 10px;
+}
+.delete-button{
+    background-color: red;
+    border: none;
+    color: whitesmoke;
+    width: 60px;
+    height: 36px;
+    padding: 5px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.headings{
+    text-decoration: underline;
+}
